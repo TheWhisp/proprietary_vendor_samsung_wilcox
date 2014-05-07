@@ -30,19 +30,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/wilcox-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/samsung/wilcox-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/samsung/wilcox-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/samsung/wilcox-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/samsung/wilcox-common/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/samsung/wilcox-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/samsung/wilcox-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/samsung/wilcox-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/samsung/wilcox-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/samsung/wilcox-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/samsung/wilcox-common/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-    vendor/samsung/wilcox-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/samsung/wilcox-common/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-    vendor/samsung/wilcox-common/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-    vendor/samsung/wilcox-common/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/samsung/wilcox-common/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/samsung/wilcox-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/wilcox-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/wilcox-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/wilcox-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -50,15 +53,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/wilcox-common/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/wilcox-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/wilcox-common/proprietary/lib/libcordon.so:system/lib/libcordon.so \
+    vendor/samsung/wilcox-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+    vendor/samsung/wilcox-common/proprietary/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/wilcox-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/samsung/wilcox-common/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/wilcox-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/samsung/wilcox-common/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/wilcox-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/wilcox-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+    vendor/samsung/wilcox-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/wilcox-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/wilcox-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/samsung/wilcox-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/wilcox-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/wilcox-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/wilcox-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
@@ -68,10 +72,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/wilcox-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/wilcox-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/wilcox-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/samsung/wilcox-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/wilcox-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+    vendor/samsung/wilcox-common/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
     vendor/samsung/wilcox-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/samsung/wilcox-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/samsung/wilcox-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/wilcox-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/samsung/wilcox-common/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/samsung/wilcox-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/samsung/wilcox-common/proprietary/lib/libchromatix_imx175_antishake.so:system/lib/libchromatix_imx175_antishake.so \
     vendor/samsung/wilcox-common/proprietary/lib/libchromatix_imx175_default_video.so:system/lib/libchromatix_imx175_default_video.so \
@@ -96,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/wilcox-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     vendor/samsung/wilcox-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/samsung/wilcox-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/samsung/wilcox-common/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/samsung/wilcox-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/samsung/wilcox-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/samsung/wilcox-common/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
@@ -114,7 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/wilcox-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/wilcox-common/proprietary/lib/libTsAccm.so:system/lib/libTsAccm.so \
     vendor/samsung/wilcox-common/proprietary/lib/libTsAwb.so:system/lib/libTsAwb.so \
-    vendor/samsung/wilcox-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/wilcox-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/samsung/wilcox-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/wilcox-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
@@ -122,31 +127,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/wilcox-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/samsung/wilcox-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/samsung/wilcox-common/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/wilcox-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/samsung/wilcox-common/proprietary/bin/lpmkey:system/bin/lpmkey \
-    vendor/samsung/wilcox-common/proprietary/bin/playlpm:system/bin/playlpm \
-    vendor/samsung/wilcox-common/proprietary/lib/libQmageAndroidDecoderPaddingSo.so:system/lib/libQmageAndroidDecoderPaddingSo.so \
-    vendor/samsung/wilcox-common/proprietary/media/Disconnected.qmg:system/media/Disconnected.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_25.qmg:system/media/battery_charging_25.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_30.qmg:system/media/battery_charging_30.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_35.qmg:system/media/battery_charging_35.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_45.qmg:system/media/battery_charging_45.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_50.qmg:system/media/battery_charging_50.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_55.qmg:system/media/battery_charging_55.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_65.qmg:system/media/battery_charging_65.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_70.qmg:system/media/battery_charging_70.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_75.qmg:system/media/battery_charging_75.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_85.qmg:system/media/battery_charging_85.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/battery_error.qmg:system/media/battery_error.qmg \
-    vendor/samsung/wilcox-common/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg
+    vendor/samsung/wilcox-common/proprietary/lib/libwvm.so:system/lib/libwvm.so
