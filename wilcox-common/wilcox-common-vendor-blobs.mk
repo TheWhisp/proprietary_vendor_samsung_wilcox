@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/wilcox-common/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/wilcox-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/wilcox-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/samsung/wilcox-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/wilcox-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/wilcox-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/wilcox-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
