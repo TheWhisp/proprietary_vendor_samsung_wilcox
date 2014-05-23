@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/wilcox-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/samsung/wilcox-common/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/samsung/wilcox-common/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/samsung/wilcox-common/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     vendor/samsung/wilcox-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/samsung/wilcox-common/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/samsung/wilcox-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
