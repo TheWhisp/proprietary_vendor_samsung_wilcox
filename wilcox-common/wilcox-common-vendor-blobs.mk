@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/wilcox-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/wilcox-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/samsung/wilcox-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/samsung/wilcox-common/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so \
     vendor/samsung/wilcox-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/samsung/wilcox-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/wilcox-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
