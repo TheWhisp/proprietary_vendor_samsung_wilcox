@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/wilcox-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/wilcox-common/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/samsung/wilcox-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
+    vendor/samsung/wilcox-common/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/samsung/wilcox-common/proprietary/lib/libchromatix_imx175_antishake.so:system/lib/libchromatix_imx175_antishake.so \
     vendor/samsung/wilcox-common/proprietary/lib/libchromatix_imx175_default_video.so:system/lib/libchromatix_imx175_default_video.so \
     vendor/samsung/wilcox-common/proprietary/lib/libchromatix_imx175_lls.so:system/lib/libchromatix_imx175_lls.so \
