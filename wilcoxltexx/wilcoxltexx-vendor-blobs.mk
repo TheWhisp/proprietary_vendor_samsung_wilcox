@@ -17,8 +17,12 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/wilcoxltexx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/samsung/wilcoxltexx/proprietary/vendor/firmware/libpn547_fw_pku.so:system/vendor/firmware/libpn547_fw_pku.so \
-    vendor/samsung/wilcoxltexx/proprietary/vendor/firmware/libpn547_fw_platform.so:system/vendor/firmware/libpn547_fw_platform.so
+    vendor/samsung/wilcoxltexx/proprietary/vendor/firmware/libpn547_fw_platform.so:system/vendor/firmware/libpn547_fw_platform.so \
+    vendor/samsung/wilcoxltexx/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so
 PRODUCT_COPY_FILES += \
     vendor/samsung/wilcoxltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/wilcoxltexx/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/wilcoxltexx/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so
+    vendor/samsung/wilcoxltexx/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/samsung/wilcoxltexx/proprietary/bin/rild:system/bin/rild
+PRODUCT_COPY_FILES += \
+    vendor/samsung/wilcoxltexx/proprietary/lib/libacdapi_azi.so:system/lib/libacdapi_azi.so
